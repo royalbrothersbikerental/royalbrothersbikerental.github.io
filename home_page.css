@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.container-nav{
+	background-color: black;
+	height: 100px; 
+	position:sticky;
+	z-index: 2;
+}
+.nav-bar{
+	display: flex;
+	padding: 40px 120px;
+}
+.nav-logo i{
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.nav-logo img{
+	height: 50px;
+	width: 150px;
+	position: absolute;
+	top: 30px;
+	left: 80px;
+
+}
+.nav-call{
+	position: absolute;
+	top: 5px;
+	left: 1100px;
+}
+.nav-call i,a{
+	color: white;
+	text-decoration: none;
+}
+.nav-link{
+	position: relative;
+	top: 20px;
+	left: 150px;
+}
+.nav-link a{
+	padding: 50px;
+}
+.nav-reg{
+	position: relative;
+	top: 10px;
+	left: 200px;
+}
+.nav-reg button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+.log-info{
+	padding: 20px;
+	margin-left: 100px;
+	position: absolute;
+	top: 30px;
+	left: 1010px;
+	float: right;
+}
+.log-info button{
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	width: 100px;
+}
+.content{
+	position: relative;
+	top: -20px;
+	height: 1000px;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.aside-bar{
+	height: 100vh;
+	width: 300px;
+	background-color:rgba(255,255,255,.4);
+	float: left;
+	margin-left:-300px;
+}
+.aside-bar p{
+	padding: 20px;
+	width: 250px;
+	background-color:rgba(0,0,0,.9);
+}
+.aside-bar a{
+	width: 250px;
+	padding: 20px;
+	margin-top:20px;	
+}
+.content .form{
+	position: absolute;
+	top: 200px;
+	left: 400px;
+}
+.form{
+	background-color: rgba(255,255,255,.6);
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+}
+table td{
+    padding: 5px;
+}
+.form button{
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color:orange;
+}
+.con-info{
+	color: orange;
+	background-color: black;
+	display: flex;
+	font-size:20px;
+	text-indent: 10px;
+	margin-top: -20px;
+	padding: 100px;
+	line-height: 40px;
+	word-spacing: 10px;
+	text-shadow: 0 0 2px blue;
+}
+.con-info .in-info1,.in-info2{
+    width: 30%;
+}
+.in-info1 span{
+	display: inline-block;
+}
+.rbx{
+	height: 400px;
+	background: linear-gradient(45deg,orange,darkblue);
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+span{
+	color: orange;
+}
+.rbx h1{
+	font-size:80px;
+	word-spacing: 20px;
+}
+.rbx h3{
+	font-size:20px;
+}
+.rbx h1,h3{
+	padding: 10px;
+}
+.tab{
+	padding: 20px;
+	position: relative;
+	top: 30px;
+	left: 800px;
+}
+.tab td{
+	padding: 10px;
+}
+.tab th{
+	padding: 25px;
+}
+.tab button{
+	padding: 10px;
+	width: 250px;
+	border-radius: 10px;
+}
+.our-fleet{
+	color: black;
+	height: 400px;
+	margin-top:80px;
+}
+.our-fleet figure{
+	display: inline-block;
+	padding: 10px;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+	margin:30px 3px;
+}
+figure button{
+	color: orange;
+	width: 300px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+}
+figure img{
+	display: inline;
+	height: 100px;
+	width: 100px;
+}
+.cont-info{
+	background-color:black;
+	color: white;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	top: 240px;
+	display: flex;
+}
+.cont-info div{
+	flex:1;
+	padding: 20px;
+	width: 200px;
+	height: 50%;
+	margin-bottom
+}
+.rb-info a{
+	display: block;
+	padding: 10px;
+	text-align: left;
+
+}
+.downld-app img{
+	height: 45px;
+	width: 100px;
+	padding: 5px;
+}
+.presence{
+	background-color:black;
+	height: 200px;
+	width: 100%;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	top: 200px;
+	margin-top:40px;
+}
+.presence p{
+	display: inline;
+}
+.presence a{
+	color: white;
+}
+.presence h2{
+	color: white;
+}
+.footer{
+	background-color:black;
+	color: white;
+	word-spacing: 2px;
+	height: 40px;
+}
+.footer p{
+	padding: 10px;
+}
+.footer img{
+	height: 12px;
+	width: 15px;
+}
